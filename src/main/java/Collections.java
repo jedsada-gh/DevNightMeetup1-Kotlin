@@ -19,7 +19,7 @@ public class Collections {
             System.out.println(value);
         }
 
-        listFruits.forEach(value -> System.out.println(value));
+        listFruits.forEach(System.out::println);
 
         List<String> filterFruits = new ArrayList<>();
 
